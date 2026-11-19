@@ -1,0 +1,18 @@
+[project]
+name = "mini-concierge"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Aidar Darmesh", email = "darmesh.aidar@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = ["langgraph (==0.2.76)", "langfuse (==2.60.9)", "langchain-core (==0.3.75)", "langchain-openai (==0.3.32)", "deepeval (==3.7.7)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.2.0"
+python-dotenv = "^1.2.4"
+
