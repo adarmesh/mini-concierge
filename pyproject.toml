@@ -11,6 +11,9 @@ dependencies = [
     "langchain-core (==0.3.75)",
     "langchain-openai (==0.3.32)",
     "deepeval (==3.7.7)",
+    "langchain-community (==0.3.29)",
+    "ddgs (>=9.16.1,<10.0.0)",
+    "pygraphviz (>=2.0.4,<3.0.0)",
 ]
 
 
